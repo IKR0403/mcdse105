@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Registration</title>
-    <style>
+   <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
@@ -69,7 +69,8 @@
             color: red;
             margin-top: 10px;
         }
-             footer {
+        
+        footer {
             color: black;
             text-align: center;
             padding: 10px 0;
@@ -102,15 +103,15 @@
         
         <button type="submit">Register</button>
   
-          
         <c:if test="${not empty errmsg}">
             <p class="error">${errmsg} Please try again.</p>
         </c:if>
-    </form:form>
-    <div class="container">
+        
+        <div class="container">
             <p><a href="/"><button>Home</button></a></p>
-            </div>
-            
-     <footer>&copy; 2024 mcdse 105 assignment</footer>
+        </div>
+    </form:form>
+    
+    <footer>&copy; 2024 mcdse 105 assignment</footer>
 </body>
 </html>
